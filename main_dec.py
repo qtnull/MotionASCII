@@ -1,5 +1,5 @@
 """main_dec.py: program/script
-This script is the player for the mascii file produced in main_end.py
+This script is the player for the mascii file produced in main_enc.py
 """
 import colorama
 import pickle
