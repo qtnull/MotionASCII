@@ -7,7 +7,7 @@ MotionASCII is a type of "video" that plays in your console or terminal. Inspire
 The encoding part of any video to MotionASCII, is to first convert the video into frames, and crush the resolution to the terminal's width and height.
 
 Normally, to ensure "quality", as you run the program, the program will first take the video, encode it, and plays it, this approach has some problems:
-- Everytime you run the program, you have to wait for the conversion
+- ~~Everytime you run the program, you have to wait for the conversion~~ This has been solved by serializing to a mascii file
 - If you have a different terminal window width and height, you have to convert it again
 - If you change the width/height, the program will not work anymore
 
